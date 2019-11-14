@@ -1,0 +1,31 @@
+{
+  "name": "twilio-screen-sharing",
+  "version": "0.0.1",
+  "description": "Screen sharing using Twilio Programmable Video",
+  "scripts": {
+    "start": "node server",
+    "start-dev": "nodemon server"
+  },
+  "keywords": [
+    "twilio",
+    "boilerplate",
+    "server"
+  ],
+  "author": "Twilio",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "ngrok": "^3.2.5",
+    "twilio": "^3.0.0-rc.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "public/*"
+    ]
+  }
+}
