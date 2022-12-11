@@ -16,7 +16,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^4.0.0",
-    "express": "^4.15.2",
+    "express": "^4.17.3",
     "ngrok": "^3.2.5",
     "twilio": "^3.0.0-rc.16"
   },
